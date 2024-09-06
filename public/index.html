@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Budget</title>
-    <meta name="description" content="A free personal budger app">
-    <meta name="keywords" content="app free budget finance">
+    <!-- This is an SEO Change (2024)-->
+    <title>Personal Budget 2024</title>
+    <!-- This is an SEO Change ("for students")-->
+    <meta name="description" content="A free personal budger app for students">
+    <!-- This is an SEO Change ("students")-->
+    <meta name="keywords" content="app free budget finance students">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
-<a href="#main" class="skip">Skip to content</a>
-
-    <nav>
+    <a href="#main" class="skip">Skip to content</a>
+    <!-- This is an A11y Change -->
+    <nav role="navigation">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/login.html">Login</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About The App</a></li>
+            <li><a href="login.html">Login Here</a></li>
             <li><a href="https://google.com">Google</a></li>
         </ul>
     </nav>
-
-    <div class="hero">
+    <!-- This is a Semantic HTML Change -->
+    <section class="hero">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
-    </div>
+    </section>
 
     <main class="center" id="main">
-
-        <div class="page-area">
+        <!-- This is a Semantic HTML Change -->
+        <!-- This is an A11y Change --> 
+        <section class="page-area" role="main">
 
             <article>
                 <h1>Stay on track</h1>
@@ -94,15 +98,16 @@
                     <canvas id="myChart" width="400" height="400"></canvas>
                 </p>
             </article>
-
-        </div>
+        </section>
 
     </main>
 
     <footer class="bottom">
-        <div class="center">
+        <!-- This is a Semantic HTML Change -->
+        <!-- This is an A11y Change -->
+        <section class="center" role=”contentinfo”>
             All rights reserved &copy; Fabio Nolasco
-        </div>
+        </section>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous"></script>
